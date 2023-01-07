@@ -1,0 +1,7 @@
+rare_odd: 580
+rare_even: 807
+rare_regular: 583
+somewhat_frequent: 12994
+frequent: 85036
+unique: 10000
+common: 100000
