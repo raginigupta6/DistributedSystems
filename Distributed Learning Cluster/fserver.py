@@ -164,7 +164,7 @@ class FServer:
             shutil.copy(src_path, local_file_name)
         else:
             target_host = from_vm_num_to_host(list(replicas)[0])
-            src_str = 'yinfang3@' + target_host + ':' + src_path
+            src_str = 'raginig2@' + target_host + ':' + src_path
             subprocess.Popen(['scp', src_str, local_file_name])
     
     def get_op_v(self, sdfs_file_name, ver, local_file_name):
